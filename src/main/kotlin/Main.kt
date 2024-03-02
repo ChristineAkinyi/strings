@@ -1,36 +1,14 @@
 fun main() {
-//    printCharacters("akirachix")
-//    printNameAge("Christine",22)
-////    printString("Christine")
-//    printCharacters("akirachix")
-//    printNameAge("Benta", 45)
-// printString("Adalab")
+    printCharacters("akirachix")
+    printNameAge("Benta",45)
+    printString("Christine")
     checkName("Christine")
 }
 
-//fun printCharacters(name:String){
-//    println(name[0])
-//    println(name[2])
-//    println(name[3])
-//}
-//
-//fun printNameAge(x:String, y:Int){
-//    var x = "Christine"
-//    var y = 22
-//    var statement = "Hi, my name is $x and I am $y years old."
-//    println(statement)
-//}
-//
-//fun printString(word:String){
-//    var length = word.length
-//    println(length)
-//}
-
 fun printCharacters(name:String){
-//    println(name[0])
-//    println(name[2])
-//    println(name[3])
-    println(name[7])
+    println(name[0])
+    println(name[2])
+    println(name[3])
 }
 
 fun printNameAge(name:String, age:Int){
@@ -38,11 +16,10 @@ fun printNameAge(name:String, age:Int){
     var age =45
     var statement = "Hi, my name is $name and I am $age years old."
     println(statement)
-
 }
 
-fun printString(name: String):Int{
-    var length = name.length
+fun printString(word:String): Int{
+    var length = word.length
     return length
 }
 
